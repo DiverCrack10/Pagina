@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Consola Vieja</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Nombre de la imagen de fondo */
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            font-family: 'Cyberpunk', sans-serif; /* Estilo de fuente estilo cyberpunk */
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .title-card {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .titles-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .titles-grid .title-card {
+            flex: 1 1 calc(50% - 40px);
+            max-width: calc(50% - 40px);
+        }
+        .title-card h3 {
+            margin: 10px 0;
+        }
+        .title-card p {
+            margin: 10px 0;
+        }
+        .platforms img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>La Consola Vieja</h1>
+        <div id="reseñas" class="section">
+            <h2>Reseñas</h2>
+            <article>
+                <h3>Halo Infinite</h3>
+                <a href="halo-infinite.html"><img src="Halo.jpg" alt="Halo Infinite"></a>
+                <p>Reseña del nuevo juego de la saga Halo, donde el Jefe Maestro enfrenta nuevos desafíos en una aventura épica.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rFh2i4AlPD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article>
+                <h3>Resident Evil 4: Remake</h3>
+                <a href="resident-evil-4-remake.html"><img src="Resident_Evil_4_Remake-559091650-large.jpg" alt="Resident Evil 4 Remake"></a>
+                <p>El clásico de survival horror vuelve con gráficos actualizados y una jugabilidad mejorada.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EyvrjE9jaKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+        </div>
+        <div id="noticias" class="section">
+            <h2>Noticias</h2>
+            <article>
+                <h3>Nuevo contenido para The Witcher 3</h3>
+                <img src="The witcher 3.jpg" alt="The Witcher 3">
+                <p>CD Projekt Red ha anunciado una nueva expansión para The Witcher 3: Wild Hunt, prometiendo nuevas aventuras y misiones.</p>
+            </article>
+            <article>
+                <h3>Anuncio de la secuela de Elden Ring</h3>
+                <img src="Elden ring.jpg" alt="Elden Ring Sequel">
+                <p>FromSoftware ha confirmado que están trabajando en una secuela de Elden Ring, el juego que ha cautivado a millones de jugadores.</p>
+            </article>
+        </div>
+        <div id="titulos-semana" class="section">
+            <h2>Títulos de la Semana</h2>
+            <div class="titles-grid">
+                <div class="title-card">
+                    <img src="RE2RE.jpg" alt="Resident Evil 2 Remake">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xtxJtQa6VSw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Resident Evil 2 Remake</h3>
+                    <p>El clásico juego de survival horror de Capcom regresa con gráficos mejorados y una jugabilidad modernizada.</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Dead space.jpg" alt="Dead Space">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C1yiuM7blIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Dead Space</h3>
+                    <p>Una experiencia de terror y ciencia ficción en el espacio que te mantendrá al borde de tu asiento.</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Red dead.jpg" alt="Red Dead Redemption 2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gmA6MrX81z4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Red Dead Redemption 2</h3>
+                    <p>Una épica aventura en el salvaje oeste con una narrativa profunda y un mundo abierto impresionante.</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Jedi Survivor.jpg" alt="Jedi: Survivor">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VRaobDJjiec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Jedi: Survivor</h3>
+                    <p>Continúa la saga de Star Wars con este emocionante juego de acción y aventuras.</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="MK11.jpg" alt="Mortal Kombat 11">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UoTams2yc0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Mortal Kombat 11</h3>
+                    <p>El clásico juego de lucha regresa con nuevos personajes y gráficos impresionantes.</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="fallout-76.jpg" alt="Fallout 76">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5IcqE8kT3KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Fallout 76</h3>
+                    <p>Explora un mundo postapocalíptico en este juego de rol multijugador en línea.</p>
+                    <div class="rating">★★★☆☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Far cry.jpg" alt="Far Cry 6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tSDMwngdkF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Far Cry 6</h3>
+                    <p>Enfréntate a un dictador en una isla caribeña en este juego de acción en mundo abierto.</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Gotham.jpg" alt="Gotham Knights">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wIXJAqs9dG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Gotham Knights</h3>
+                    <p>Protege Gotham City en este juego de acción y aventuras, incluso sin Batman.</p>
+                    <div class="rating">★★★★☆</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Hollow Knight.jpg" alt="Hollow Knight">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nSPJXlYjENE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Hollow Knight</h3>
+                    <p>Explora un mundo subterráneo en este desafiante juego de plataformas y acción.</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                        <img src="Nintendo.jpg" alt="Nintendo Switch">
+                    </div>
+                </div>
+                <div class="title-card">
+                    <img src="Sekiro.jpg" alt="Sekiro: Shadows Die Twice">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rXMX4YJ7Lks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>Sekiro: Shadows Die Twice</h3>
+                    <p>Enfrenta a enemigos implacables en esta aventura de acción ambientada en Japón.</p>
+                    <div class="rating">★★★★★</div>
+                    <div class="platforms">
+                        <img src="Play.jpg" alt="PlayStation">
+                        <img src="Xbox.jpg" alt="Xbox">
+                        <img src="PC.jpg" alt="PC">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+                
+
+    
